@@ -1,0 +1,33 @@
+.navbar {
+    padding: 20px 170px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+
+    h1 {
+        color: #06d6a0 !important;
+        font-family: 'Pacifico', sans-serif;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #06d6a0 !important;
+    }
+
+    .nav-link.active {
+        color: #06d6a0;
+    }
+
+    .btn {
+        background-color: #06d6a0;
+        border-color: #06d6a0;
+
+        &:hover {
+            background-color: #fff;
+            color: #06d6a0;
+        }
+    }
+}
