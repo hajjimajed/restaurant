@@ -2,6 +2,11 @@
     background-color: #fffffc;
     width: fit-content;
 
+    .hero-header {
+        background: url('https://i.ibb.co/7vNRFbb/Capture-d-cran-2023-06-05-164211.png');
+        background-size: cover;
+    }
+
     .container {
         .display-3 {
             font-size: calc(1.525rem + 3vw);
@@ -83,4 +88,63 @@
         }
     }
 
+
+    .col-lg-6 {
+        h1 {
+            font-size: calc(1.375rem + 1.2vw);
+            font-family: "Nunito", sans-serif;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        h5 {
+            font-family: 'Pacifico', sans-serif;
+            color: #06d6a0 !important;
+            font-size: 30px !important;
+        }
+
+        p {
+            color: #0000009b;
+        }
+
+        .col-sm-6 {
+            div {
+                border-color: #06d6a0 !important;
+
+                h1 {
+                    color: #06d6a0 !important;
+                }
+            }
+        }
+    }
+
+    .menu-section {
+        h5 {
+            font-family: 'Pacifico', sans-serif;
+            color: #06d6a0 !important;
+            font-size: 30px !important;
+        }
+
+        h1 {
+            font-size: calc(1.375rem + 1.2vw);
+            font-family: "Nunito", sans-serif;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+    }
+
+
+    .d-flex {
+        span {
+            color: #000000 !important;
+            font-family: "Nunito", sans-serif;
+            font-size: 1.25rem;
+            font-weight: 800;
+            line-height: 1.2;
+
+            &:last-child {
+                color: #06d6a0 !important;
+            }
+        }
+    }
 }

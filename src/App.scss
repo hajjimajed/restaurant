@@ -13,4 +13,10 @@ body {
 
 .btn {
   border-radius: 30px !important;
+  text-transform: uppercase !important;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
 }
