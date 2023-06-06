@@ -1,13 +1,27 @@
 .home-container {
     background-color: #fffffc;
-    width: fit-content;
+    width: 100%;
 
     .hero-header {
-        background: url('https://i.ibb.co/7vNRFbb/Capture-d-cran-2023-06-05-164211.png');
+        background: url('https://i.ibb.co/SnpzH7S/4503151.png');
         background-size: cover;
+        height: 100vh;
+
+        img {
+            width: 30rem;
+            height: auto;
+            margin-right: 100px;
+            margin-top: 80px;
+        }
     }
 
     .container {
+
+        h1,
+        p {
+            color: #000000 !important;
+        }
+
         .display-3 {
             font-size: calc(1.525rem + 3vw);
             font-weight: 800;
@@ -16,12 +30,13 @@
         }
 
         .btn {
-            background-color: #06d6a0;
-            border-color: #06d6a0;
+            background-color: #FFC737;
+            border-color: #FFC737;
 
             &:hover {
-                background-color: #fff;
-                color: #06d6a0;
+                background-color: #000000;
+                border-color: #000000;
+                color: #ffffff;
             }
         }
     }
@@ -62,18 +77,18 @@
         }
 
         svg {
-            width: 75px;
-            height: 75px;
+            width: 50px;
+            height: 50px;
             padding-bottom: 20px;
             transition: 0.2s ease-in-out all;
 
             path {
-                fill: #06d6a0;
+                fill: #FFC737;
             }
         }
 
         &:hover {
-            background-color: #06d6a0;
+            background-color: #FFC737;
             color: #fff;
 
             p {
@@ -88,6 +103,12 @@
         }
     }
 
+    .about-container {
+        background: url('https://i.ibb.co/NyYrB08/45031511.png');
+        background-size: cover;
+
+    }
+
 
     .col-lg-6 {
         h1 {
@@ -99,7 +120,7 @@
 
         h5 {
             font-family: 'Pacifico', sans-serif;
-            color: #06d6a0 !important;
+            color: #FFC737 !important;
             font-size: 30px !important;
         }
 
@@ -109,19 +130,33 @@
 
         .col-sm-6 {
             div {
-                border-color: #06d6a0 !important;
+                border-color: #FFC737 !important;
 
                 h1 {
-                    color: #06d6a0 !important;
+                    color: #FFC737 !important;
                 }
             }
         }
     }
 
     .menu-section {
+        svg {
+            width: 50px;
+            height: 50px;
+            transition: 0.2s ease-in-out all;
+
+            path {
+                fill: #FFC737;
+            }
+        }
+
+        h6 {
+            font-weight: 700;
+        }
+
         h5 {
             font-family: 'Pacifico', sans-serif;
-            color: #06d6a0 !important;
+            color: #FFC737 !important;
             font-size: 30px !important;
         }
 
@@ -131,6 +166,7 @@
             font-weight: 800;
             line-height: 1.2;
         }
+
     }
 
 
@@ -143,7 +179,7 @@
             line-height: 1.2;
 
             &:last-child {
-                color: #06d6a0 !important;
+                color: #FFC737 !important;
             }
         }
     }
@@ -152,6 +188,22 @@
 
 
     .col-md-6 {
+
+        .reservation-form {
+            background: url('https://i.ibb.co/hccjSbS/4521601.png');
+            background-size: cover;
+
+            input:focus,
+            select:focus,
+            textarea:focus {
+                box-shadow: none;
+                border-color: #FFC737;
+            }
+
+            h1 {
+                color: #000000 !important;
+            }
+        }
 
         .reservation-img {
             width: 100%;
@@ -166,7 +218,7 @@
 
         h5 {
             font-family: 'Pacifico', sans-serif;
-            color: #06d6a0 !important;
+            color: #FFC737 !important;
             font-size: 30px !important;
         }
 
@@ -178,12 +230,12 @@
         }
 
         .btn {
-            background-color: #06d6a0;
-            border-color: #06d6a0;
+            background-color: #000000;
+            border-color: #000000;
 
             &:hover {
                 background-color: #fff;
-                color: #06d6a0;
+                color: #000000;
             }
         }
     }
@@ -192,7 +244,7 @@
     .team-container {
         h5 {
             font-family: 'Pacifico', sans-serif;
-            color: #06d6a0 !important;
+            color: #FFC737 !important;
             font-size: 30px !important;
         }
 
@@ -205,9 +257,6 @@
     }
 
     .g-4 {
-        padding-bottom: 100px !important;
-
-
         .col-lg-3 {
             margin-bottom: 100px;
 
@@ -223,7 +272,7 @@
 
                 h5 {
                     font-family: 'Nunito', sans-serif;
-                    color: #06d6a0 !important;
+                    color: #FFC737 !important;
                     font-size: 30px !important;
                 }
 
@@ -240,13 +289,83 @@
                     transform: translateY(40px);
                     border-radius: 30px 30px 0 0 !important;
                     margin-top: -40px;
+                    border: none;
 
                     &:hover {
-                        background-color: #06d69ee4;
+                        background-color: #FFC737e4;
                     }
                 }
             }
         }
 
+    }
+
+    .footer-container {
+        width: 100vw !important;
+        background: url('https://i.ibb.co/CJSstfX/footer.png');
+        background-size: cover;
+
+        input {
+            border: none;
+        }
+
+        input:focus {
+            box-shadow: none;
+            border-color: #FFC737;
+        }
+
+        h4 {
+            font-family: 'Pacifico', sans-serif;
+            color: #000000 !important;
+            font-size: 30px !important;
+        }
+
+        h5 {
+            color: #000000 !important;
+            font-size: 16px !important;
+            font-family: 'Nunito', sans-serif !important;
+        }
+
+        .btn-social {
+            width: 40px;
+            height: 40px;
+            padding: 0 !important;
+            border-radius: 25px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+
+            svg {
+                margin: 0;
+                padding: 0;
+                width: 18px;
+                height: auto;
+            }
+        }
+
+        .footer-link-menu {
+            display: flex;
+            flex-direction: column;
+
+            .footer-link {
+                color: #000000;
+                background-color: transparent;
+                text-decoration: none;
+                border: none;
+                transition: 0.2s ease-in-out all;
+
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .copyright {
+            color: #000000 !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+        }
     }
 }

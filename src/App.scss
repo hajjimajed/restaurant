@@ -1,14 +1,15 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
 * {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1faee;
+  background-color: #fffdf7;
+  overflow-x: hidden;
 }
 
 .btn {
