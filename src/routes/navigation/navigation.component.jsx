@@ -34,6 +34,11 @@ const Navigation = () => {
         transform: `translateY(${translation}px)`,
     };
 
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const menuToggle = () => {
+        setIsMenuOpen(!isMenuOpen);
+    }
+
 
     return (
         <>
@@ -73,28 +78,31 @@ const Navigation = () => {
                         </g>
                     </svg>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
                 <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Service</a>
                         <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        {/* <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="booking.html" class="dropdown-item">Booking</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div> */}
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                <a href="" class="btn btn-primary main-nav-btn py-2 px-4">Book A Table</a>
+                <div onClick={menuToggle} className={`ham-menu-toggle ${isMenuOpen ? 'ham-menu-toggle-active' : ''}`} >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className={`mobile-nav-bar ${isMenuOpen ? 'mobile-nav-bar-active' : ''}`}>
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active" onClick={menuToggle}>Home</a>
+                        <a href="about.html" class="nav-item nav-link" onClick={menuToggle}>About</a>
+                        <a href="service.html" class="nav-item nav-link" onClick={menuToggle}>Service</a>
+                        <a href="menu.html" class="nav-item nav-link" onClick={menuToggle}>Menu</a>
+                        <a href="contact.html" class="nav-item nav-link" onClick={menuToggle}>Contact</a>
+                    </div>
+                    <a class="btn btn-primary  py-2 px-4" onClick={menuToggle}>Book A Table</a>
+                </div>
             </nav>
             <Outlet />
         </>

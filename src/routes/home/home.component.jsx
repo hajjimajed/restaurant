@@ -2,9 +2,11 @@ import './home.styles.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faUtensils, faCartPlus, faHeadset, faCoffee, faHamburger } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebook, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import { useState, useEffect } from 'react';
 
 const Home = () => {
+
+
 
     return (
         <div className='home-container'>
