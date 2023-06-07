@@ -43,7 +43,7 @@ const Navigation = () => {
     return (
         <>
             <nav style={navbarStyle} class="navbar navbar-expand-lg">
-                <a href="" class="navbar-brand p-0">
+                <a href="#home" class="navbar-brand p-0">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="33.1 23.8 584.643 138.7" viewBox="33.1 23.8 584.643 138.7" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-a2yjv3-9m68ys"><title id="svgcid-a2yjv3-9m68ys"></title>
                         <g>
                             <path d="M110.1 122.3H76.6c-3.4 0-6.1-2.7-6.1-6.1 0-3.4 2.7-6.1 6.1-6.1h28.7l2-7.8H72c-2.8 0-5.2-1.8-5.9-4.5l-5.6-20c-.5-1.9-.1-3.8 1-5.4 1.2-1.5 3-2.4 4.9-2.4h54.5c3.4 0 6.1 2.7 6.1 6.1 0 3.4-2.7 6.1-6.1 6.1H74.5l2.2 7.8h38.6c1.9 0 3.7.9 4.8 2.4 1.2 1.5 1.6 3.4 1.1 5.3l-5.1 20.1c-.7 2.6-3.2 4.5-6 4.5z" fill="#b44818" data-color="1"></path>
@@ -80,14 +80,14 @@ const Navigation = () => {
                 </a>
                 <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">Service</a>
+                        <a href="#menu" class="nav-item nav-link">Menu</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
-                <a href="" class="btn btn-primary main-nav-btn py-2 px-4">Book A Table</a>
+                <a href="#reserve" class="btn btn-primary main-nav-btn py-2 px-4">Book A Table</a>
                 <div onClick={menuToggle} className={`ham-menu-toggle ${isMenuOpen ? 'ham-menu-toggle-active' : ''}`} >
                     <div></div>
                     <div></div>
@@ -95,13 +95,13 @@ const Navigation = () => {
                 </div>
                 <div className={`mobile-nav-bar ${isMenuOpen ? 'mobile-nav-bar-active' : ''}`}>
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active" onClick={menuToggle}>Home</a>
-                        <a href="about.html" class="nav-item nav-link" onClick={menuToggle}>About</a>
-                        <a href="service.html" class="nav-item nav-link" onClick={menuToggle}>Service</a>
-                        <a href="menu.html" class="nav-item nav-link" onClick={menuToggle}>Menu</a>
-                        <a href="contact.html" class="nav-item nav-link" onClick={menuToggle}>Contact</a>
+                        <a href="#home" class="nav-item nav-link active" onClick={menuToggle}>Home</a>
+                        <a href="#about" class="nav-item nav-link" onClick={menuToggle}>About</a>
+                        <a href="#service" class="nav-item nav-link" onClick={menuToggle}>Service</a>
+                        <a href="#menu" class="nav-item nav-link" onClick={menuToggle}>Menu</a>
+                        <a href="#contact" class="nav-item nav-link" onClick={menuToggle}>Contact</a>
                     </div>
-                    <a class="btn btn-primary  py-2 px-4" onClick={menuToggle}>Book A Table</a>
+                    <a href="#reserve" class="btn btn-primary  py-2 px-4" onClick={menuToggle}>Book A Table</a>
                 </div>
             </nav>
             <Outlet />

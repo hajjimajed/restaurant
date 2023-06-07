@@ -2,14 +2,12 @@ import './home.styles.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faUtensils, faCartPlus, faHeadset, faCoffee, faHamburger } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebook, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { useState, useEffect } from 'react';
+
 
 const Home = () => {
 
-
-
     return (
-        <div className='home-container'>
+        <div id='home' className='home-container'>
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container  py-5">
                     <div class="row align-items-center g-5">
@@ -25,7 +23,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div class="container-xxl py-5">
+            <div id='service' class="container-xxl py-5">
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -71,7 +69,7 @@ const Home = () => {
 
 
 
-            <div class="container-xxl py-5 about-container">
+            <div id='about' class="container-xxl py-5 about-container">
                 <div class="container">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
@@ -128,7 +126,7 @@ const Home = () => {
 
             {/* menu-section */}
 
-            <div class="container-xxl py-5">
+            <div id='menu' class="container-xxl py-5">
                 <div class="container menu-section">
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
@@ -475,7 +473,7 @@ const Home = () => {
 
             {/* reservation section */}
 
-            <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div id='reserve' class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-0">
                     <div class="col-md-6">
                         <div class="reservation-img">
@@ -551,7 +549,7 @@ const Home = () => {
 
 
             {/* team section */}
-            <div class="container-xxl pt-5 pb-3 team-container">
+            {/* <div class="container-xxl pt-5 pb-3 team-container">
                 <div class="container">
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
@@ -640,12 +638,12 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
             {/* footer container */}
-            <div class="container-fluid text-light footer footer-container pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div id='contact' class="container-fluid text-light footer footer-container pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
                 <div class="container py-5">
                     <div class="row g-5">
                         <div class="footer-link-menu col-lg-2 col-md-6">
