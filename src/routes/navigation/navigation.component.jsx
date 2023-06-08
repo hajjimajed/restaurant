@@ -42,8 +42,8 @@ const Navigation = () => {
 
     return (
         <>
-            <nav style={navbarStyle} class="navbar navbar-expand-lg">
-                <a href="#home" class="navbar-brand p-0">
+            <nav style={navbarStyle} className="navbar navbar-expand-lg">
+                <a href="#home" className="navbar-brand p-0">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="33.1 23.8 584.643 138.7" viewBox="33.1 23.8 584.643 138.7" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-a2yjv3-9m68ys"><title id="svgcid-a2yjv3-9m68ys"></title>
                         <g>
                             <path d="M110.1 122.3H76.6c-3.4 0-6.1-2.7-6.1-6.1 0-3.4 2.7-6.1 6.1-6.1h28.7l2-7.8H72c-2.8 0-5.2-1.8-5.9-4.5l-5.6-20c-.5-1.9-.1-3.8 1-5.4 1.2-1.5 3-2.4 4.9-2.4h54.5c3.4 0 6.1 2.7 6.1 6.1 0 3.4-2.7 6.1-6.1 6.1H74.5l2.2 7.8h38.6c1.9 0 3.7.9 4.8 2.4 1.2 1.5 1.6 3.4 1.1 5.3l-5.1 20.1c-.7 2.6-3.2 4.5-6 4.5z" fill="#b44818" data-color="1"></path>
@@ -56,7 +56,7 @@ const Navigation = () => {
                             <path fill="#ffffff" d="M377.9 31.9h-15.4v75.4h43.3l.7-8h-28.6V31.9z" data-color="2"></path>
                             <path d="M466.7 74.3c-1.5-1.8-3.3-3.3-5.4-4.5-2.4-1.3-5.1-2.3-7.8-2.8v-.2c1.8-.4 3.6-1.1 5.2-2 1.7-.9 3.1-2.1 4.4-3.5 1.3-1.5 2.3-3.2 3-5.1.8-2.2 1.1-4.5 1.1-6.8.1-2.8-.6-5.7-2-8.1a16.1 16.1 0 0 0-5.7-5.6c-2.8-1.5-5.7-2.6-8.8-3.2-3.8-.7-7.6-1.1-11.4-1h-5.4c-1.9 0-3.8.1-5.6.2-1.9.1-3.7.2-5.5.3-1.8.1-3.4.2-5 .4V107c1.6.1 3.5.3 5.7.4 2.2.1 4.4.3 6.6.4 2.2.1 4.4.1 6.5.2 2.1.1 4 .1 5.6.1 4.3.1 8.6-.4 12.8-1.4 3.2-.8 6.2-2.2 8.9-4.2 2.2-1.8 4-4 5.2-6.7 1.2-2.8 1.7-5.9 1.7-8.9 0-2.3-.4-4.6-1-6.8-.7-2.1-1.7-4.1-3.1-5.8zm-33.4-35.1c.6-.1 1.2-.2 1.7-.2h2c2.1 0 4.2.2 6.3.6 1.6.4 3.2 1.1 4.6 2.1 1.3 1 2.2 2.3 2.8 3.7.7 1.8 1 3.7 1 5.7 0 1.5-.1 3.1-.3 4.6-.2 1-.5 2.1-.9 3-.3.7-.7 1.4-1.2 1.9-.4.4-.9.8-1.4 1.1-1.3.6-2.7 1.1-4.2 1.3-1.7.3-3.5.5-5.3.5h-5.1V39.2zm21.3 52.2c-.2 1.3-.6 2.5-1.1 3.6-.4.8-.9 1.6-1.5 2.2-.5.5-1.1.9-1.7 1.2-.7.3-1.4.6-2.1.8-1 .2-2 .4-2.9.5-1.1.2-2.2.2-3.3.3-1.1.1-2.1.1-3 .1h-3.5c-.3 0-.6-.1-1-.1l-1.1-.2V71.2h4.8c5.5 0 9.8 1.2 12.7 3.8 2.9 2.5 4.4 6.2 4.4 11.1-.2 1.7-.4 3.5-.7 5.3z" fill="#ffffff" data-color="2"></path>
                             <path fill="#ffffff" d="m509.8 68.9-18.5-37h-17.5l24.5 46.5v28.9h15.4V78.4l24.7-46.5H529l-19.2 37z" data-color="2"></path>
-                            <path d="M555.3 52h.5l-.2-6.3.4-.4c2 .2 3.8.4 5.8.7l-.5-1.7c-.1-.3 0-.6.3-.8l5.8-4.9-1.2-.6c-.5-.2-.4-.5-.2-1.2l.9-3.3-3.4.7c-.3.1-.6-.2-.6-.4l-.4-1.6-2.7 3.1c-.4.5-1.2.5-.9-.6l1.1-6.2-1.5.8c-.4.2-.9.3-1.1-.2l-2.2-4.1-2.2 4.1c-.2.4-.7.4-1.1.2l-1.5-.8 1.1 6.2c.2 1.1-.5 1.1-.9.6l-2.7-3.1-.4 1.6c-.1.2-.3.4-.6.4l-3.4-.7.9 3.3c.2.7.3 1-.2 1.2l-1.2.6 5.8 4.9c.2.2.3.5.3.8l-.5 1.7c2-.2 3.8-.5 5.8-.7l.4.4-.2 6.3h.7z" fill-rule="evenodd" clip-rule="evenodd" fill="#e56226" data-color="3"></path>
+                            <path d="M555.3 52h.5l-.2-6.3.4-.4c2 .2 3.8.4 5.8.7l-.5-1.7c-.1-.3 0-.6.3-.8l5.8-4.9-1.2-.6c-.5-.2-.4-.5-.2-1.2l.9-3.3-3.4.7c-.3.1-.6-.2-.6-.4l-.4-1.6-2.7 3.1c-.4.5-1.2.5-.9-.6l1.1-6.2-1.5.8c-.4.2-.9.3-1.1-.2l-2.2-4.1-2.2 4.1c-.2.4-.7.4-1.1.2l-1.5-.8 1.1 6.2c.2 1.1-.5 1.1-.9.6l-2.7-3.1-.4 1.6c-.1.2-.3.4-.6.4l-3.4-.7.9 3.3c.2.7.3 1-.2 1.2l-1.2.6 5.8 4.9c.2.2.3.5.3.8l-.5 1.7c2-.2 3.8-.5 5.8-.7l.4.4-.2 6.3h.7z" fillRule="evenodd" clipRule="evenodd" fill="#e56226" data-color="3"></path>
                             <path d="M616.3 76.3c-1-2.3-2.4-4.5-4.2-6.3-1.7-1.8-3.7-3.2-5.9-4.3-2.2-1.1-4.5-2.1-6.8-3-2.3-.9-4.6-1.7-6.8-2.5-2-.7-4-1.6-5.9-2.6-1.6-.8-3-2-4.2-3.3-1.1-1.4-1.6-3.1-1.5-4.8 0-1.6.2-3.2.7-4.8.3-1.2 1.1-2.2 2.1-2.8 1.2-.6 2.5-1 3.8-1.1 1.5-.2 3-.3 4.4-.3 1.5 0 3 .1 4.6.3 1.7.2 3.5.5 5.3.8 1.8.3 3.6.7 5.3 1.1 1.7.4 3.3.9 4.8 1.4l2.4-11.2c-3-.5-6.1-1-9.2-1.3-3.3-.3-6.6-.5-10-.5-3.9-.1-7.8.6-11.5 2-3.1 1.2-6 2.9-8.5 5-2.2 1.9-4 4.1-5.3 6.7-1.1 2.2-1.7 4.6-1.8 7-.1 3 .4 5.9 1.5 8.6 1 2.3 2.4 4.3 4.2 6.1 1.7 1.7 3.7 3.2 5.9 4.3 2.2 1.1 4.4 2.2 6.7 3 2.3.9 4.5 1.7 6.7 2.5 2 .7 4 1.6 5.9 2.7 1.6.9 3 2 4.2 3.4 1.1 1.4 1.6 3.1 1.5 4.9.1 2.3-.3 4.6-1.1 6.8-.5 1.4-1.4 2.6-2.7 3.3-3 1-6.1 1.5-9.2 1.3-2 0-3.9-.3-5.9-.7-2.2-.5-4.3-1-6.4-1.7-2-.6-4-1.4-5.9-2.2-1.5-.6-3-1.4-4.4-2.3l-3.7 11.2c1.7.8 3.3 1.6 5 2.2 1.7.7 3.5 1.3 5.2 1.7 1.9.5 3.8.9 5.8 1.1 2.2.3 4.5.4 6.7.4 4.1.1 8.3-.6 12.2-2.1 3.4-1.2 6.5-3.1 9.3-5.4 2.5-2.1 4.5-4.6 6-7.4 1.3-2.5 2.1-5.4 2.1-8.2.2-3.1-.3-6.2-1.4-9z" fill="#ffffff" data-color="2"></path>
                             <path d="M226.4 147.2h7.2c.4 0 .6.2.6.6v3.6c0 .4-.2.6-.6.6H222c-.4 0-.6-.2-.6-.6v-24.2c0-.4.2-.6.6-.6h3.8c.4 0 .6.2.6.6v20z" fill="#e56226" data-color="3"></path>
                             <path d="M251.8 130.8c0 .4-.1.6-.6.6h-8.9v5.6h6.8c.4 0 .6.2.6.6v3.6c0 .4-.2.6-.6.6h-6.8v5.4h8.9c.4 0 .6.2.6.6v3.6c0 .4-.1.6-.6.6h-13.3c-.3 0-.5-.2-.5-.6v-24.2c0-.4.2-.6.5-.6h13.3c.4 0 .6.2.6.6v3.6z" fill="#e56226" data-color="3"></path>
@@ -78,30 +78,30 @@ const Navigation = () => {
                         </g>
                     </svg>
                 </a>
-                <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#menu" class="nav-item nav-link">Menu</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                <div className="collapse navbar-collapse navbar-menu" id="navbarCollapse">
+                    <div className="navbar-nav ms-auto py-0 pe-4">
+                        <a href="#home" className="nav-item nav-link active">Home</a>
+                        <a href="#about" className="nav-item nav-link">About</a>
+                        <a href="#service" className="nav-item nav-link">Service</a>
+                        <a href="#menu" className="nav-item nav-link">Menu</a>
+                        <a href="#contact" className="nav-item nav-link">Contact</a>
                     </div>
                 </div>
-                <a href="#reserve" class="btn btn-primary main-nav-btn py-2 px-4">Book A Table</a>
+                <a href="#reserve" className="btn btn-primary main-nav-btn py-2 px-4">Book A Table</a>
                 <div onClick={menuToggle} className={`ham-menu-toggle ${isMenuOpen ? 'ham-menu-toggle-active' : ''}`} >
                     <div></div>
                     <div></div>
                     <div></div>
                 </div>
                 <div className={`mobile-nav-bar ${isMenuOpen ? 'mobile-nav-bar-active' : ''}`}>
-                    <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="#home" class="nav-item nav-link active" onClick={menuToggle}>Home</a>
-                        <a href="#about" class="nav-item nav-link" onClick={menuToggle}>About</a>
-                        <a href="#service" class="nav-item nav-link" onClick={menuToggle}>Service</a>
-                        <a href="#menu" class="nav-item nav-link" onClick={menuToggle}>Menu</a>
-                        <a href="#contact" class="nav-item nav-link" onClick={menuToggle}>Contact</a>
+                    <div className="navbar-nav ms-auto py-0 pe-4">
+                        <a href="#home" className="nav-item nav-link active" onClick={menuToggle}>Home</a>
+                        <a href="#about" className="nav-item nav-link" onClick={menuToggle}>About</a>
+                        <a href="#service" className="nav-item nav-link" onClick={menuToggle}>Service</a>
+                        <a href="#menu" className="nav-item nav-link" onClick={menuToggle}>Menu</a>
+                        <a href="#contact" className="nav-item nav-link" onClick={menuToggle}>Contact</a>
                     </div>
-                    <a href="#reserve" class="btn btn-primary  py-2 px-4" onClick={menuToggle}>Book A Table</a>
+                    <a href="#reserve" className="btn btn-primary  py-2 px-4" onClick={menuToggle}>Book A Table</a>
                 </div>
             </nav>
             <Outlet />
