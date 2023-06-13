@@ -17,6 +17,13 @@
     transition: 0.3s ease-in-out all;
     background-color: #000000;
 
+    a {
+        svg {
+            width: 80px !important;
+            height: 80px !important;
+        }
+    }
+
 
     .ham-menu-toggle {
         width: 25px;

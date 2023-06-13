@@ -27,9 +27,10 @@ const Home = () => {
                 <div className="container  py-5">
                     <div className="row align-items-center g-5">
                         <div className="col-lg-6 text-center text-lg-start">
-                            <h1 className="display-3 text-white animated slideInLeft">Enjoy Our <br /> Delicious Meal</h1>
-                            <p className="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a href="" className="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                            <h1 className="display-3 text-white animated slideInLeft">Savourer Nos <br /> Délicieux Repas</h1>
+                            <p className="text-white animated slideInLeft mb-4 pb-2">
+                                Découvrez une expérience culinaire inoubliable en savourant nos délicieux repas. Chez nous, la satisfaction de vos papilles est notre priorité absolue.</p>
+                            <a href="#reserve" className="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Réserver</a>
                         </div>
                         <div className="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img className="img-fluid spin-animation" src="https://i.ibb.co/744WKNZ/Untitled-1.png" alt="" />
@@ -45,8 +46,8 @@ const Home = () => {
                             <div className="service-item rounded pt-3">
                                 <div className="p-4">
                                     <FontAwesomeIcon icon={faUserTie} className="fa fa-3x fa-user-tie text-primary mb-2" />
-                                    <h5>Master Chefs</h5>
-                                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    <h5>Maîtres cuisiniers</h5>
+                                    <p>Notre équipe culinaire experte est composée de maîtres cuisiniers qui élaborent avec passion des plats exquis.</p>
                                 </div>
                             </div>
                         </div>
@@ -54,8 +55,8 @@ const Home = () => {
                             <div className="service-item rounded pt-3">
                                 <div className="p-4">
                                     <FontAwesomeIcon icon={faUtensils} className="fa fa-3x fa-utensils text-primary mb-2" />
-                                    <h5>Quality Food</h5>
-                                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    <h5>Nourriture de qualité</h5>
+                                    <p>Nous sommes fiers de n'utiliser que les meilleurs ingrédients, provenant de sources locales et mondiales, pour garantir une qualité inégalée.</p>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +64,8 @@ const Home = () => {
                             <div className="service-item rounded pt-3">
                                 <div className="p-4">
                                     <FontAwesomeIcon icon={faCartPlus} className="fa fa-3x fa-user-tie text-primary mb-2" />
-                                    <h5>Online Order</h5>
-                                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    <h5>Commande par téléphone</h5>
+                                    <p>grâce à notre système de commande par téléphone pratique, nous fournissons un service rapide et personnalisé.</p>
                                 </div>
                             </div>
                         </div>
@@ -72,8 +73,8 @@ const Home = () => {
                             <div className="service-item rounded pt-3">
                                 <div className="p-4">
                                     <FontAwesomeIcon icon={faHeadset} className="fa fa-3x fa-user-tie text-primary mb-2" />
-                                    <h5>24/7 Service</h5>
-                                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    <h5>Service de qualité</h5>
+                                    <p>Notre personnel dévoué s'engage à vous fournir un service exceptionnel.</p>
                                 </div>
                             </div>
                         </div>
@@ -104,31 +105,31 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <h5 className="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                            <h1 className="mb-4">Welcome to <i className="fa fa-utensils text-primary me-2"></i>Restoran</h1>
-                            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                            <h5 className="section-title ff-secondary text-start text-primary fw-normal">À PROPOS</h5>
+                            <h1 className="mb-4">Bienvenue au <i className="fa fa-utensils text-primary me-2"></i>Lamamma</h1>
+                            <p className="mb-4">Que vous soyez amateurs de cuisine traditionnelle ou de nouvelles tendances gastronomiques, nous avons des options pour tous les goûts. </p>
+                            <p className="mb-4">Nos ingrédients frais et de première qualité ajoutent une dimension supplémentaire à nos plats, garantissant une expérience gustative exceptionnelle à chaque fois que vous nous rendez visite. Venez savourer nos délicieux repas et laissez-nous vous offrir un moment culinaire mémorable.</p>
                             <div className="row g-4 mb-4">
                                 <div className="col-sm-6">
                                     <div className="d-flex align-items-center border-start border-5 border-primary px-3">
                                         <h1 className="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
                                         <div className="ps-4">
-                                            <p className="mb-0">Years of</p>
+                                            <p className="mb-0">Ans</p>
                                             <h6 className="text-uppercase mb-0">Experience</h6>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-sm-6">
                                     <div className="d-flex align-items-center border-start border-5 border-primary px-3">
-                                        <h1 className="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                        <h1 className="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">5</h1>
                                         <div className="ps-4">
-                                            <p className="mb-0">Popular</p>
-                                            <h6 className="text-uppercase mb-0">Master Chefs</h6>
+                                            <p className="mb-0">Populaire</p>
+                                            <h6 className="text-uppercase mb-0">Maîtres cuisiniers</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a className="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                            <a className="btn btn-primary py-3 px-5 mt-2" href="">En Savoir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -144,8 +145,8 @@ const Home = () => {
             <div id='menu' className="container-xxl py-5">
                 <div className="container menu-section">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 className="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                        <h1 className="mb-5">Most Popular Items</h1>
+                        <h5 className="section-title ff-secondary text-center text-primary fw-normal">Menu</h5>
+                        <h1 className="mb-5">Nos Items Populaires</h1>
                     </div>
                     <div className="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                         <ul className="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -154,8 +155,8 @@ const Home = () => {
 
                                     <FontAwesomeIcon icon={faHamburger} className="fa fa-3x fa-user-tie text-primary" />
                                     <div className="ps-3">
-                                        <small className="text-body">Popular</small>
-                                        <h6 className="mt-n1 mb-0">Sandwishes</h6>
+                                        <small className="text-body">Populaire</small>
+                                        <h6 className="mt-n1 mb-0">Sandwichs</h6>
                                     </div>
                                 </a>
                             </li>
@@ -163,7 +164,7 @@ const Home = () => {
                                 <a className="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
                                     <FontAwesomeIcon icon={faPizzaSlice} className="fa fa-3x fa-user-tie text-primary" />
                                     <div className="ps-3">
-                                        <small className="text-body">Hot</small>
+                                        <small className="text-body">Chaud</small>
                                         <h6 className="mt-n1 mb-0">Pizzas</h6>
                                     </div>
                                 </a>
@@ -172,8 +173,8 @@ const Home = () => {
                                 <a className="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                     <FontAwesomeIcon icon={faCoffee} className="fa fa-3x fa-user-tie text-primary" />
                                     <div className="ps-3">
-                                        <small className="text-body">Refreshing</small>
-                                        <h6 className="mt-n1 mb-0">Drinks</h6>
+                                        <small className="text-body">Rafraîchissant</small>
+                                        <h6 className="mt-n1 mb-0">Boissons</h6>
                                     </div>
                                 </a>
                             </li>
@@ -269,51 +270,12 @@ const Home = () => {
                             <img src="https://i.ibb.co/tM9pPsQ/Capture-d-cran-2023-06-06-161906.png" alt="" />
                         </div>
                     </div>
-                    <div className="col-md-6 bg-dark d-flex align-items-center">
+                    <div className="col-md-6 bg-dark d-flex align-items-center res-form">
                         <div className="p-5 wow fadeInUp reservation-form" data-wow-delay="0.2s">
                             <h5 className="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-                            <h1 className="text-white mb-4">Book A Table Online</h1>
-                            <form>
-                                <div className="row g-3">
-                                    <div className="col-md-6">
-                                        <div className="form-floating">
-                                            <input type="text" className="form-control" id="name" placeholder="Your Name" />
-                                            <label htmlFor="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-floating">
-                                            <input type="email" className="form-control" id="email" placeholder="Your Email" />
-                                            <label htmlFor="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-floating date" id="date3" data-target-input="nearest">
-                                            <input type="text" className="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label htmlFor="datetime">Date & Time</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-floating">
-                                            <select className="form-select" id="select1">
-                                                <option value="1">People 1</option>
-                                                <option value="2">People 2</option>
-                                                <option value="3">People 3</option>
-                                            </select>
-                                            <label htmlFor="select1">No Of People</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-12">
-                                        <div className="form-floating">
-                                            <textarea className="form-control" placeholder="Special Request" id="message" style={{ height: '100px' }}></textarea>
-                                            <label htmlFor="message">Special Request</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-12">
-                                        <button className="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <h1 className="text-white mb-4">Appelez-nous</h1>
+                            <h1 className="text-white mb-4">& Réservez une table maintenant</h1>
+                            <h2 className="text-white mb-4">+216 98 235 744</h2>
                         </div>
                     </div>
                 </div>
@@ -341,59 +303,39 @@ const Home = () => {
             <div id='contact' className="container-fluid text-light footer footer-container pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
                 <div className="container py-5">
                     <div className="row g-5">
-                        <div className="footer-link-menu col-lg-2 col-md-6">
+                        <div className="footer-link-menu col-lg-4 col-md-6">
                             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                            <a className="footer-link" href="">About Us</a>
-                            <a className="footer-link" href="">Contact Us</a>
-                            <a className="footer-link" href="">Reservation</a>
-                            <a className="footer-link" href="">Privacy Policy</a>
-                            <a className="footer-link" href="">Terms & Condition</a>
+                            <a className="footer-link mb-2" href="">À Propos Nous</a>
+                            <a className="footer-link mb-2" href="">Contacter Nous</a>
+                            <a className="footer-link mb-2" href="">Réservation</a>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                            <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                            <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
+                            <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Rue Habib Bourguiba, Sidi Bouzid, Tunisie</p>
+                            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+216 98 235 744</p>
                             <div className="d-flex pt-2">
-                                <a className="btn btn-outline-light btn-social" href="">
-                                    <FontAwesomeIcon icon={faTwitter} className="fab fa-twitter" />
 
-                                </a>
-                                <a className="btn btn-outline-light btn-social" href="">
+                                <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/phonestoreee">
                                     <FontAwesomeIcon icon={faFacebook} className="fab fa-twitter" />
                                 </a>
-                                <a className="btn btn-outline-light btn-social" href="">
-                                    <FontAwesomeIcon icon={faYoutube} className="fab fa-twitter" />
-                                </a>
-                                <a className="btn btn-outline-light btn-social" href="">
-                                    <FontAwesomeIcon icon={faLinkedin} className="fab fa-twitter" />
-                                </a>
+
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                            <h5 className="text-light fw-normal">Monday - Saturday</h5>
-                            <p>09AM - 09PM</p>
-                            <h5 className="text-light fw-normal">Sunday</h5>
-                            <p>10AM - 08PM</p>
+                            <h5 className="text-light fw-normal mb-2">Lundi - Samedi</h5>
+                            <p>11AM - 11PM</p>
                         </div>
-                        <div className="col-lg-3 col-md-6">
-                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                            <div className="position-relative mx-auto" style={{ maxWidth: '400px' }}>
-                                <input className="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
-                                <button type="button" className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div className="container">
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; <a className="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                                &copy; <a className="border-bottom" href="#">Lamamma</a>, Tous droits réservés.
 
-                                Designed By <a className="border-bottom" href="https://htmlcodex.com">VARWARE</a>
+                                Conçu par <a className="border-bottom" href="https://htmlcodex.com">VARWARE</a>
                             </div>
 
                         </div>
