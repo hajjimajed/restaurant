@@ -304,10 +304,10 @@ const Home = () => {
                 <div className="container py-5">
                     <div className="row g-5">
                         <div className="footer-link-menu col-lg-4 col-md-6">
-                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                            <a className="footer-link mb-2" href="">À Propos Nous</a>
-                            <a className="footer-link mb-2" href="">Contacter Nous</a>
-                            <a className="footer-link mb-2" href="">Réservation</a>
+                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Restaurant</h4>
+                            <a className="footer-link mb-2" href="#about">À Propos Nous</a>
+                            <a className="footer-link mb-2" href="#contact">Contacter Nous</a>
+                            <a className="footer-link mb-2" href="#reserve">Réservation</a>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
@@ -322,7 +322,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
-                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Horaire</h4>
                             <h5 className="text-light fw-normal mb-2">Lundi - Samedi</h5>
                             <p>11AM - 11PM</p>
                         </div>
